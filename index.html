@@ -6,14 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css"
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 
     <header class="header">
         <h1>SOFI MODAS</h1>
         <nav class="navbar">
-          <!-- menu -->
+
+          <div id="usuario">
+            
+            <ul class="usuarios-menu">
+              
+              <ul class="usuarios-link"> 
+                <li><a href="login.html"><span class="material-symbols-outlined">
+                  person
+                  </span>Iniciar Sesión</a></li>
+                
+                <li><a href="registro.html"><span class="material-symbols-outlined">
+                  how_to_reg
+                  </span>Registrarme</a></li>
+              </ul>
+            
+            </ul>
+          </div>
+
           <label for="toggle-menu" class="bars-menu"
             ><i class="fa-solid fa-bars"></i>
           </label>
@@ -21,7 +39,7 @@
           <ul class="navbar-list">
             <li><a href="#beneficios" class="navbar-link">Beneficios</a></li>
             <li><a href="#productos" class="navbar-link">Productos</a></li>
-            <li><a href="#contacto" class="navbar-link">CONTACTO</a></li>
+            <li><a href="#contacto" class="navbar-link">Contacto</a></li>
           </ul>
           
           <div class="overlay"></div>
@@ -37,31 +55,29 @@
             <div class="hero-info">
              <h1>SOFI MODAS</h1>
              <p>Te brindamos para ti los mejores productos, accesorios,  <p>maquillajes y muchas cosas más en nuestra tienda online!!.</p></p> 
-             <a href="https://ar.todomoda.com/"><button>Tienda online</button></a>
-            
-         
-           <img src="./imagen.png" alt="imagen" width="400px"> 
+             <a href="#"><button>Tienda online</button></a>
+           <img src="./imagen.png" alt="imagen" width="300px"> 
             </div>
+            
             </section>
+            <br>
             <br>
             <br>
             <br>
             <section id="beneficios">
                 <h2>Beneficios</h2>
-               <br>
-               
+               <br> 
                 <div class="info-cards-container">
                   <div class="info-card">
-                    <img src="./cuotas.png" alt="" width="50px">
-                    
+                    <img src="./cuotas.png" alt="" width="50px">              
                     <h3>Cuotas</h3>
                     <p>
                      Cuotas de 3,6,9 y 12 sin interés a partir de $20.000! .
                     </p>
                   </div>
                   <div class="info-card">
-                    <img src="./ofertas.jpeg" alt="" width="50px" />
-                    
+                    <img src="./ofertas.jpeg" alt="" width="50px"/> 
+                         
                     <h3>Ofertas</h3>
                     <p>
                       Aprovechá nustras ofertas todos los findes de semanas.
@@ -76,16 +92,44 @@
                     </p>
                   </div>
                 </div>
+                <br>
               </section>
-              <main>
-                <section class="productos" id="productos">
-              
-                 <img src="./delineador.jpg" alt="" width="200px">
-            
-                 <img src="./labial.jpg" alt="" width="200px"> 
-                 <img src="./sombra.jpg" alt="" width="200px"> 
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <section class="productos" id="productos"></section>
+                <h2>Productos</h2>
+               <br>
+               <br>
+                  <div class="productos_cards">
+                 <div class="elementos_cards">
+                  <img src="./delineador.jpg" alt="image delineador" width="200px">
+                  <div class="card_top">
+                    <h3>Delineador Maybeline TattoLiner</h3>
+                  </div>
+                  <div class="card_bottom">$1000</div>
+                  </div>
+                  
+                  <div class="elementos_cards">
+                    <img src="./labial.jpg" alt="" width="200px">
+                    <div class="card_top">
+                      <h3>Labial MAC. Color rojo</h3>
+                    </div>
+                    <div class="card_bottom">$1500</div>
+                  </div>
+
+                  <div class="elementos_cards">
+                 <img src="./sombra.jpg" alt="" width="200px">
+                 <div class="card_top">
+                  <h3>Paleta de sombras Vogue</h3>
+                 </div>
+                 <div class="card_bottom">$2500</div>
+                  </div>
+                  </div>
                 </section>
-              </main>
+              
     </main>
     <hr class="contendido-hr" >
     <main>
@@ -105,6 +149,9 @@
           <p>
             <i class="fa-brands fa-instagram"> SOFI_MODAS.OK </i>
           </p>            
+        </div>
+        <div class="info_map">
+          <img src="./mapa.jpg" alt="mapa" width="350px">
         </div>  
         <br>
         <div class="only-icons">
@@ -121,13 +168,6 @@
             <div class="footer">
               <h1>SOFI MODAS</h1> 
             </div>
-          </footer>
-        
-      
-    
-              
-     
-     
-    
+          </footer>   
     </body>
 </html>
